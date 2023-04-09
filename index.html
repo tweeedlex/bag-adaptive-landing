@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bag</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header__container">
+          <a href="/" class="logo">
+            <img src="public/logo.png" alt="logo" />
+          </a>
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="menu__item menu__item_active"><a href="#">Home</a></li>
+              <li class="menu__item"><a href="#">Feature</a></li>
+              <li class="menu__item"><a href="#">About</a></li>
+              <li class="menu__item"><a href="#">Product</a></li>
+            </ul>
+          </nav>
+          <div class="header__actions">
+            <button class="shop">Shop now</button>
+            <button onclick="toggleMenu()" class="burger"><span></span></button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__text">
+              <h2 class="subtitle">Look Stylish Be Stylish.</h2>
+              <h1>Look Stylish Be <img src="/public/stylish.png" /></h1>
+              <p>
+                Before starting this business you should have ideas about the
+                market and products to Compete with the Existing Businesses.
+              </p>
+              <button class="shop">Join Shop</button>
+            </div>
+            <div class="hero__media">
+              <img class="hero__girl" src="/public/girl.png" alt="girl" />
+              <img
+                class="hero__discount"
+                src="/public/discount.png"
+                alt="discount"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="feature">
+          <div class="feature__container">
+            <div class="feature__categories">
+              <button class="feature__category active">water resistant</button>
+              <button class="feature__category">charging system</button>
+              <button class="feature__category">artificial leather</button>
+              <button class="feature__category">modern clothes</button>
+            </div>
+            <div class="feature__line">
+              <div class="feature__active-line"></div>
+              <hr />
+            </div>
+            <div class="feature__items">
+              <div class="feature__item">
+                <img src="/public/bags/image.png" alt="bag" />
+              </div>
+              <div class="feature__item">
+                <img src="/public/bags/Rectangle 45.png" alt="bag" />
+              </div>
+              <div class="feature__item">
+                <img
+                  src="/public/bags/laptop-backpack-for-men-womenschool-backpacks-for-college-travel-backpack-with-usb-port-1graypouch-ch17aysuauu-removebg 1.png"
+                  alt="bag"
+                />
+              </div>
+              <div class="feature__item">
+                <img
+                  src="/public/bags/product-image-826191689_540x-removebg 1.png"
+                  alt="bag"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__media">
+            <img src="/public/about-background.png" alt="about" />
+            <img class="about__bags" src="/public/about.png" alt="about" />
+          </div>
+          <div class="about__text">
+            <h2 class="subtitle">Creative bag only for you.</h2>
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+              eiusmod.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <button class="shop">See More</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer__container">
+          <div class="footer__bag">
+            <img src="/public/logo.png" alt="bag" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing sed do eiusmod.
+            </p>
+          </div>
+          <div class="footer__special-categories">
+            <h3 class="footer__title">special categories</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">water resistant</li>
+              <li class="footer__list-item">charging system</li>
+              <li class="footer__list-item">artificial leather</li>
+            </ul>
+          </div>
+          <div class="footer__contact-us">
+            <h3 class="footer__title">Contact us</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">(808) 555-0111</li>
+              <li class="footer__list-item">michelle.rivera@example.com</li>
+              <li class="footer__list-item">http://www.codehow.com</li>
+            </ul>
+          </div>
+          <div class="footer__news-letter">
+            <h3 class="footer__title">News letter</h3>
+            <form>
+              <input
+                type="email"
+                class="footer__input"
+                placeholder="Enter Your Email"
+              />
+              <button class="shop footer__button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
