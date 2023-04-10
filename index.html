@@ -22,10 +22,18 @@
           </a>
           <nav class="header__menu">
             <ul class="menu__list">
-              <li class="menu__item menu__item_active"><a href="#">Home</a></li>
-              <li class="menu__item"><a href="#">Feature</a></li>
-              <li class="menu__item"><a href="#">About</a></li>
-              <li class="menu__item"><a href="#">Product</a></li>
+              <li class="menu__item header__link_home menu__item_active">
+                <a href="#hero">Home</a>
+              </li>
+              <li class="menu__item header__link_feature">
+                <a href="#feature">Feature</a>
+              </li>
+              <li class="menu__item header__link_about">
+                <a href="#about">About</a>
+              </li>
+              <li class="menu__item header__link_product">
+                <a href="#product">Product</a>
+              </li>
             </ul>
           </nav>
           <div class="header__actions">
@@ -60,29 +68,43 @@
         <section class="feature">
           <div class="feature__container">
             <div class="feature__categories">
-              <button class="feature__category active">water resistant</button>
-              <button class="feature__category">charging system</button>
-              <button class="feature__category">artificial leather</button>
-              <button class="feature__category">modern clothes</button>
+              <button
+                data-target="water-resistant"
+                class="feature__category active"
+              >
+                water resistant
+              </button>
+              <button data-target="charging-system" class="feature__category">
+                charging system
+              </button>
+              <button
+                data-target="artificial-leather"
+                class="feature__category"
+              >
+                artificial leather
+              </button>
+              <button data-target="modern-clothes" class="feature__category">
+                modern clothes
+              </button>
             </div>
             <div class="feature__line">
               <div class="feature__active-line"></div>
               <hr />
             </div>
             <div class="feature__items">
-              <div class="feature__item">
+              <div class="feature__item charging-system active">
                 <img src="/public/bags/image.png" alt="bag" />
               </div>
-              <div class="feature__item">
+              <div class="feature__item artificial-leather active">
                 <img src="/public/bags/Rectangle 45.png" alt="bag" />
               </div>
-              <div class="feature__item">
+              <div class="feature__item water-resistant active">
                 <img
                   src="/public/bags/laptop-backpack-for-men-womenschool-backpacks-for-college-travel-backpack-with-usb-port-1graypouch-ch17aysuauu-removebg 1.png"
                   alt="bag"
                 />
               </div>
-              <div class="feature__item">
+              <div class="feature__item modern-clothes active">
                 <img
                   src="/public/bags/product-image-826191689_540x-removebg 1.png"
                   alt="bag"
@@ -110,6 +132,82 @@
             <button class="shop">See More</button>
           </div>
         </section>
+        <section class="product">
+          <div class="product__container">
+            <div class="product__text">
+              <h2>our available product</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </p>
+            </div>
+            <div class="product__cards">
+              <div class="product__card product__card_pink">
+                <img src="/public/product-bags/1.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_pink">
+                <img src="/public/product-bags/2.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_purple">
+                <img src="/public/product-bags/3.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_pink">
+                <img src="/public/product-bags/4.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_blue">
+                <img src="/public/product-bags/5.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_pink">
+                <img src="/public/product-bags/6.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_blue">
+                <img src="/public/product-bags/7.png" alt="bag" />
+              </div>
+              <div class="product__card product__card_green">
+                <img src="/public/product-bags/8.png" alt="bag" />
+              </div>
+            </div>
+            <button class="see-more">
+              See More <img src="/public/arrow.png" alt="arrow" />
+            </button>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="contact__container">
+            <div class="contact__image">
+              <img src="/public/contact.png" />
+            </div>
+            <div class="contact__text">
+              <h2>Lorem ipsum dolor sit amet adipiscing elit.</h2>
+              <form class="form" action="">
+                <div class="form__header">
+                  <input class="form__name" type="text" placeholder="Name" />
+                  <input class="form__email" type="text" placeholder="Email" />
+                </div>
+                <input
+                  type="text"
+                  class="form__address"
+                  placeholder="Address"
+                />
+                <div class="form__footer">
+                  <div>
+                    <input id="checkbox" type="checkbox" name="checkbox" />
+                    <label for="checkbox">Lorem ipsum dolor sit amet.</label>
+                  </div>
+                  <button class="shop">Join now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="social">
+          <div class="social__container">
+            <img src="/public/social/Company logo.png" alt="" />
+            <img src="/public/social/Company logo-1.png" alt="" />
+            <img src="/public/social/Company logo-2.png" alt="" />
+            <img src="/public/social/Company logo-3.png" alt="" />
+          </div>
+        </div>
       </main>
 
       <footer>
